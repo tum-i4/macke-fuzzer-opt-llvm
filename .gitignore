@@ -1,0 +1,5 @@
+bin/
+build/
+*.o
+*.bc
+.ycm_extra_conf.py
