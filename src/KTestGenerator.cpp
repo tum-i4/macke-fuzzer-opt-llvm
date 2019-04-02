@@ -139,9 +139,6 @@ namespace
 		/* Fill KTestObjects for arguments */
 		for(auto& arg : GetFunctionArgumentList(backgroundFunc))
 		{
-			if(arg.hasStructRetAttr())
-				continue;
-
 			std::string argName = GetArgumentName(&M, &arg);
 
 			/* Copy the argument-name into the obj */
